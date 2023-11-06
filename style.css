@@ -1,0 +1,41 @@
+
+    #redactForm {
+      margin-bottom: 20px;
+    }
+  
+    body {
+      background-color: aqua;
+      
+    }
+    .body {
+      text-align: center;
+    }
+    #originalText {
+      width: 95%;
+    } 
+    #wordsToRedact {
+      width: 50%;
+      height: 30px;
+    
+    }
+
+
+    h1 {
+      position: relative;
+      animation: moveLeftToRight 5s linear infinite;
+  }
+  
+  @keyframes moveLeftToRight {
+      0% {
+          left: 0;
+      }
+      100% {
+          left: calc(100% - 100px);     
+          }
+  }
+  
+  
+  
+  
+  
+  
